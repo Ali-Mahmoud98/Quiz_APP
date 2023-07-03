@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Tahoma;
+  background-color: #b6ded0de;
+}
+.quizApp{
+  margin: 20px auto;
+  width: 800px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.quizApp .quizInfo{
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 20px;
+  border-radius: 5px;
+}
+.quizApp .quizInfo .category{
+  flex: 1;
+}
+.quizApp .quizInfo .count{
+  flex: 1;
+  text-align: right;
+}
+.quizApp .quizArea{
+  padding: 20px;
+  margin-top: 15px;
+  background-color: #e5e5e5;
+  border-radius: 5px 5px 0 0;
+}
+.quizApp .quizArea h2{
+  margin: 0;
+}
+.quizApp .answersArea{
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #e5e5e5;
+  border-radius: 0 0 5px 5px;
+}
+.quizApp .answersArea .choose{
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+.quizApp .answersArea .choose:not(:last-child){
+  border-bottom: 2px solid #e5e5e5;
+}
+.quizApp .answersArea .choose input[type ="radio"]:checked + label{
+  color: #26569a;
+}
+.quizApp .answersArea .choose label{
+  cursor: pointer;
+  font-weight: bold;
+  color: #3a3a3a;
+  font-size: 14px;
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+}
+.quizApp .submitAndTime{
+  display: flex;
+  padding: 15px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.quizApp .submitAndTime .submit-button{
+  background-color: #26569a;
+  color: #f8f8f8;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 28px;
+  outline: none;
+  border: 2px #f2f2f2 solid;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+.quizApp .submitAndTime .submit-button:hover{
+  background-color: #3368b2;
+  color: #3a3a3a;
+}
+.quizApp .submitAndTime .countDown{
+  margin-left: 10px;
+  font-weight: bold;
+}
+.quizApp .bullets{
+  display: flex;
+}
+.quizApp .spans{
+  display: flex;
+}
+.quizApp .spans span{
+  padding: 8px;
+  margin-left: 3px;
+  border-radius: 50%;
+  background-color: #8e8a8a;
+}
+.quizApp .spans span.on{
+  background-color: #26569a;
+}
+.results{
+  background-color: #f2f2f2;
+  width: 690px;
+  height: 421px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  transform: translate(0px, -471px);
+  flex-direction: column;
+  color: #3a3a3a;
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "title" : "Which was the first purely object oriented programming language developed?",
+    "ans1":"Kotlin",
+    "ans2": "SmallTalk",
+    "ans3":"Java",
+    "ans4": "C++",
+    "right_ans": "SmallTalk"
+  },
+  {
+    "title" : "Which feature of OOP indicates code reusability?",
+    "ans1":"Abstraction",
+    "ans2": "Polymorphism",
+    "ans3":"Encapsulation",
+    "ans4": "Inheritance",
+    "right_ans": "Inheritance"
+  },
+  {
+    "title" : "Why Java is Partially OOP language?",
+    "ans1":"It allows code to be written outside classes",
+    "ans2": "It does not support pointers",
+    "ans3":"It does not support all types of inheritance",
+    "ans4": "It supports usual declaration of primitive data types",
+    "right_ans": "It supports usual declaration of primitive data types"
+  },
+  {
+    "title" : "Which among the following does not come under OOP concept?",
+    "ans1":"Data hiding",
+    "ans2": "Message passing",
+    "ans3":"Platform independent",
+    "ans4": "Data binding",
+    "right_ans": "Platform independent"
+  },
+  {
+    "title" : "Which is the correct syntax of inheritance?",
+    "ans1":"class base_classname :access derived_classname{ /*define class body*/ };",
+    "ans2": "class derived_classname : access base_classname{ /*define class body*/ };",
+    "ans3":"class derived_classname : base_classname{ /*define class body*/ };",
+    "ans4": "class base_classname : derived_classname{ /*define class body*/ };",
+    "right_ans":"class derived_classname : access base_classname{ /*define class body*/ };"
+  },
+  {
+    "title" : "Which among the following, for a pure OOP language, is true?",
+    "ans1":"The language should follow at least 1 feature of OOP",
+    "ans2": "The language must follow only 3 features of OOP",
+    "ans3":"The language must follow all the rules of OOP",
+    "ans4": "The language should follow 3 or more features of OOP",
+    "right_ans": "The language must follow all the rules of OOP"
+  },
+  {
+    "title" : "In multilevel inheritance, which is the most significant feature of OOP used?",
+    "ans1":"Code efficiency",
+    "ans2": "Code readability",
+    "ans3":"Flexibility",
+    "ans4": "Code reusability",
+    "right_ans": "Code reusability"
+  },
+  {
+    "title" : "Which of the following is not true about polymorphism?",
+    "ans1":"Helps in redefining the same functionality",
+    "ans2": "Increases overhead of function definition always",
+    "ans3":"It is feature of OOP",
+    "ans4": "Ease in readability of program",
+    "right_ans": "Increases overhead of function definition always"
+  },
+  {
+    "title" : "Which among the following can show polymorphism?",
+    "ans1":"Overloading &&",
+    "ans2": "Overloading <<",
+    "ans3":"Overloading ||",
+    "ans4": "Overloading +=",
+    "right_ans": "Overloading <<"
+  },
+  {
+    "title" : "In which access should a constructor be defined, so that object of the class can be created in any function?",
+    "ans1":"Any access specifier will work",
+    "ans2": "Private",
+    "ans3":"Public",
+    "ans4": "Protected",
+    "right_ans": "Public"
+  }
+]
