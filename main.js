@@ -19,7 +19,7 @@ function getQuizeQuestion(){
   request.onreadystatechange = function (){
     if (this.readyState === 4 && this.status ===200) {
       let questions = JSON.parse(this.responseText);
-      console.log(questions);
+      //console.log(questions);
       //console.log(typeof(questions));
       addQ(questions[cIndex], numOfQ);
       countDown(qDuration);
